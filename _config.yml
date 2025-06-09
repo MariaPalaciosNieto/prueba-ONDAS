@@ -1,1 +1,17 @@
+title: "Revistas Musicales Históricas - BNE"
+description: "Exposición virtual de revistas musicales de la Biblioteca Nacional de España"
+theme: minima
+url: "https://mariapalacionieto.github.io"
+baseurl: "/prueba-ONDAS"
 
+collections:
+  revistas:
+    output: true
+    permalink: /:collection/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: "revistas"
+    values:
+      layout: "revista"
